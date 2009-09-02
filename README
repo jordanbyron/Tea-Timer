@@ -1,0 +1,11 @@
+= Tea Timer: Another OS X Tea Time with a ruby twist
+
+A simple tea timer to remind you when your tea is done. Because no one likes cold tea
+
+== Why?
+
+The latest version of Mac OS X 10.6 (Snow Leopard) broke my favorite little tea timer app (http://www.herwig-henseler.de/teatimer). I've always wanted to play around with Coca so I set out to create a new, Snow Leopard friendly, tea timer
+
+== MacRuby
+
+This project is using MacRuby 0.4 so I can ease into Objective-C

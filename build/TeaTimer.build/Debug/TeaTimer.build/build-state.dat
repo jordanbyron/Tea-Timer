@@ -1,0 +1,216 @@
+TTeaTimer
+v7
+r0
+t273608950.399927
+cCheck dependencies
+cProcessInfoPlistFile /Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/Info.plist Info.plist
+cStripNIB /Users/byron/Code/TeaTimer/English.lproj/MainMenu.nib
+cCopyStringsFile /Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCpResource build/Debug/TeaTimer.app/Contents/Resources/rb_main.rb rb_main.rb
+cCpResource build/Debug/TeaTimer.app/Contents/Resources/Controller.rb Controller.rb
+cCpResource build/Debug/TeaTimer.app/Contents/Resources/timer.rb timer.rb
+cCompileC build/TeaTimer.build/Debug/TeaTimer.build/Objects-normal/x86_64/main.o /Users/byron/Code/TeaTimer/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/MacOS/TeaTimer normal x86_64
+cTouch /Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004A49A9E400000000000000EE
+t1246341604
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/MacRuby.framework/Headers/MacRuby.h
+c000000004A9E6FC8000000000000005F
+t1251897288
+s95
+
+N/Library/Frameworks/MacRuby.framework/MacRuby
+c000000004A9E7FEA0000000001A72020
+t1251901418
+s27729952
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/byron/Code/TeaTimer/Controller.rb
+c000000004A9EB974000000000000016D
+t1251916148
+s365
+
+N/Users/byron/Code/TeaTimer/English.lproj/InfoPlist.strings
+c000000004A9E9D6100000000000000CC
+t1251908961
+s204
+
+N/Users/byron/Code/TeaTimer/English.lproj/MainMenu.nib
+c000000004A9EB9540000000000000088
+t1251916116
+s136
+
+N/Users/byron/Code/TeaTimer/Timer.rb
+c000000004A9EB1FF0000000000001251
+t1251914239
+s4689
+
+N/Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app
+t1251916150
+s102
+
+N/Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/Info.plist
+t1251909026
+s772
+
+N/Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/MacOS/TeaTimer
+t1251909028
+s10104
+
+N/Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/PkgInfo
+t1251909026
+s8
+
+N/Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/Resources/Controller.rb
+t1251916150
+s365
+
+N/Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1251909026
+s204
+
+N/Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/Resources/English.lproj/MainMenu.nib
+t1251916127
+s10424
+
+N/Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/Resources/Timer.rb
+t2
+s0
+
+N/Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/Resources/rb_main.rb
+t1251909026
+s535
+
+N/Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/Resources/timer.rb
+t1251915314
+s1811
+
+N/Users/byron/Code/TeaTimer/build/TeaTimer.build/Debug/TeaTimer.build/Objects-normal/x86_64/TeaTimer.LinkFileList
+c000000004A9E9DA20000000000000062
+t1251909026
+s98
+
+N/Users/byron/Code/TeaTimer/build/TeaTimer.build/Debug/TeaTimer.build/Objects-normal/x86_64/main.o
+t1251909027
+s11544
+
+N/Users/byron/Code/TeaTimer/main.m
+c000000004A9E9D6100000000000000FA
+t1251908961
+s250
+i<MacRuby/MacRuby.h>
+
+N/Users/byron/Code/TeaTimer/rb_main.rb
+c000000004A9E9D610000000000000217
+t1251908961
+s535
+
+N/Users/byron/Code/TeaTimer/timer.rb
+c000000004A9EB5EE0000000000000713
+t1251915246
+s1811
+
+NInfo.plist
+c000000004A9E9D610000000000000345
+t1251908961
+s837
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies273608950#273608950#0(0"0(0#1#0"4300882208#0"0#
+
+CCompileC build/TeaTimer.build/Debug/TeaTimer.build/Objects-normal/x86_64/main.o /Users/byron/Code/TeaTimer/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s273601826.852171
+e273601827.791419
+r1
+xCompileC
+xbuild/TeaTimer.build/Debug/TeaTimer.build/Objects-normal/x86_64/main.o
+x/Users/byron/Code/TeaTimer/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@41"Compile /Users/byron/Code/TeaTimer/main.m273601826#273601827#0(0"0(0#0#33"/Users/byron/Code/TeaTimer/main.m4300882208#833"    cd /Users/byron/Code/TeaTimer    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.5.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.5 -gdwarf-2 -I/Users/byron/Code/TeaTimer/build/TeaTimer.build/Debug/TeaTimer.build/TeaTimer.hmap -F/Users/byron/Code/TeaTimer/build/Debug -I/Users/byron/Code/TeaTimer/build/Debug/include -I/Users/byron/Code/TeaTimer/build/TeaTimer.build/Debug/TeaTimer.build/DerivedSources/x86_64 -I/Users/byron/Code/TeaTimer/build/TeaTimer.build/Debug/TeaTimer.build/DerivedSources -c /Users/byron/Code/TeaTimer/main.m -o /Users/byron/Code/TeaTimer/build/TeaTimer.build/Debug/TeaTimer.build/Objects-normal/x86_64/main.o0#
+
+CCopyStringsFile /Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s273601826.616402
+e273601826.802136
+r1
+xCopyStringsFile
+x/Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings273601826#273601826#0(0"0(0#0#58"/Users/byron/Code/TeaTimer/English.lproj/InfoPlist.strings4300882208#343"    cd /Users/byron/Code/TeaTimer    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/TeaTimer.app/Contents/Resources/Controller.rb Controller.rb
+s273608950.385344
+e273608950.392649
+r1
+xCpResource
+xbuild/Debug/TeaTimer.app/Contents/Resources/Controller.rb
+xController.rb
+lSLF07#2@18"Copy Controller.rb273608950#273608950#0(0"0(0#0#40"/Users/byron/Code/TeaTimer/Controller.rb4300882208#294"    cd /Users/byron/Code/TeaTimer    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/byron/Code/TeaTimer/Controller.rb /Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/Resources0#
+
+CCpResource build/Debug/TeaTimer.app/Contents/Resources/Timer.rb Timer.rb
+r0
+
+CCpResource build/Debug/TeaTimer.app/Contents/Resources/rb_main.rb rb_main.rb
+s273601826.802224
+e273601826.851892
+r1
+xCpResource
+xbuild/Debug/TeaTimer.app/Contents/Resources/rb_main.rb
+xrb_main.rb
+lSLF07#2@15"Copy rb_main.rb273601826#273601826#0(0"0(0#0#37"/Users/byron/Code/TeaTimer/rb_main.rb4300882208#291"    cd /Users/byron/Code/TeaTimer    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/byron/Code/TeaTimer/rb_main.rb /Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/Resources0#
+
+CCpResource build/Debug/TeaTimer.app/Contents/Resources/timer.rb timer.rb
+s273608114.187831
+e273608114.197701
+r1
+xCpResource
+xbuild/Debug/TeaTimer.app/Contents/Resources/timer.rb
+xtimer.rb
+lSLF07#2@13"Copy timer.rb273608114#273608114#0(0"0(0#0#35"/Users/byron/Code/TeaTimer/timer.rb4300882208#289"    cd /Users/byron/Code/TeaTimer    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/byron/Code/TeaTimer/timer.rb /Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/Resources0#
+
+CLd /Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/MacOS/TeaTimer normal x86_64
+s273601827.791518
+e273601828.926570
+r1
+xLd
+x/Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/MacOS/TeaTimer
+xnormal
+xx86_64
+lSLF07#2@80"Link /Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/MacOS/TeaTimer273601827#273601828#0(0"0(0#0#0"4300882208#506"    cd /Users/byron/Code/TeaTimer    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.5.sdk -L/Users/byron/Code/TeaTimer/build/Debug -F/Users/byron/Code/TeaTimer/build/Debug -filelist /Users/byron/Code/TeaTimer/build/TeaTimer.build/Debug/TeaTimer.build/Objects-normal/x86_64/TeaTimer.LinkFileList -mmacosx-version-min=10.5 -framework Cocoa -framework MacRuby -o /Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/MacOS/TeaTimer0#
+
+CProcessInfoPlistFile /Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/Info.plist Info.plist
+s273601826.581105
+e273601826.609883
+r1
+xProcessInfoPlistFile
+x/Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist273601826#273601826#0(0"0(0#0#37"/Users/byron/Code/TeaTimer/Info.plist31525678434287664#268"    cd /Users/byron/Code/TeaTimer    builtin-infoPlistUtility Info.plist -genpkginfo /Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/Info.plist0#
+
+CStripNIB /Users/byron/Code/TeaTimer/English.lproj/MainMenu.nib
+s273608927.885853
+e273608927.987473
+r1
+xStripNIB
+x/Users/byron/Code/TeaTimer/English.lproj/MainMenu.nib
+lSLF07#2@35"StripNIB English.lproj/MainMenu.nib273608927#273608927#0(0"0(0#0#53"/Users/byron/Code/TeaTimer/English.lproj/MainMenu.nib4300882208#260"    cd /Users/byron/Code/TeaTimer    /Developer/usr/bin/ibtool --strip /Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app/Contents/Resources/English.lproj/MainMenu.nib --output-format human-readable-text /Users/byron/Code/TeaTimer/English.lproj/MainMenu.nib0#
+
+CTouch /Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app
+s273608950.392879
+e273608950.399874
+r1
+xTouch
+x/Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app
+lSLF07#2@57"Touch /Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app273608950#273608950#0(0"0(0#0#0"4300882208#108"    cd /Users/byron/Code/TeaTimer    /usr/bin/touch -c /Users/byron/Code/TeaTimer/build/Debug/TeaTimer.app0#
+

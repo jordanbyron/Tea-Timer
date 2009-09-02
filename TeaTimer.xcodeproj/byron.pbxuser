@@ -1,0 +1,108 @@
+// !$*UTF8*$!
+{
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 91CE4BA2104ED4E10095A4EE /* TeaTimer */;
+		activeTarget = 8D1107260486CEB800E47090 /* TeaTimer */;
+		addToTargets = (
+			8D1107260486CEB800E47090 /* TeaTimer */,
+		);
+		codeSenseManager = 91CE4BB5104ED4E60095A4EE /* Code sense */;
+		executables = (
+			91CE4BA2104ED4E10095A4EE /* TeaTimer */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					341,
+					20,
+					48.16259765625,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 273601761;
+			PBXWorkspaceStateSaveDate = 273601761;
+		};
+		sourceControlManager = 91CE4BB4104ED4E60095A4EE /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	8D1107260486CEB800E47090 /* TeaTimer */ = {
+		activeExec = 0;
+		executables = (
+			91CE4BA2104ED4E10095A4EE /* TeaTimer */,
+		);
+	};
+	91CE4BA2104ED4E10095A4EE /* TeaTimer */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = TeaTimer;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	91CE4BB4104ED4E60095A4EE /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	91CE4BB5104ED4E60095A4EE /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	91CE4BBB104EE48B0095A4EE /* Controller.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {888, 588}}";
+			sepNavSelRange = "{15, 0}";
+			sepNavVisRange = "{0, 264}";
+		};
+	};
+	91CE4BDB104EE97A0095A4EE /* timer.rb */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {888, 2033}}";
+			sepNavSelRange = "{4689, 0}";
+			sepNavVisRange = "{0, 1094}";
+		};
+	};
+}

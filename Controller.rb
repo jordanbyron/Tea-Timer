@@ -1,21 +1,33 @@
-require 'timer'
+framework 'Cocoa'
 
 class Controller
-  attr_writer :minutesField, :secondsField
+  attr_accessor :minutes_field, :seconds_field
 
   def awakeFromNib
 
   end
 
-  def startTimer(sender)
+  def start_timer(sender)
     sender.Title = "Stop"
     
-    seconds = @minutesField.stringValue.to_i * 60 + @secondsField.stringValue.to_i
+    seconds = @minutes_field.stringValue.to_i * 60 + @seconds_field.stringValue.to_i
     
     th = Thread.new do
-      sleep(seconds)
+      seconds.times do
+        sleep(1)
+        @seconds_field.stringValue = @seconds_field.stringValue.to_i - 1
+      end
+      
       puts "Tea's Done!"
       sender.Title = "Start"
+      tea_done
     end
+  end
+  
+  def tea_done
+    NSApp.requestUserAttention(NSCriticalRequest)
+    
+    sound = NSSound.soundNamed("steam")
+    sound.play
   end
 end

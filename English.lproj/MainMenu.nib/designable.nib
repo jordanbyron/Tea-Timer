@@ -484,27 +484,27 @@
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">minutesField</string>
+						<string key="label">minutes_field</string>
 						<reference key="source" ref="931918929"/>
 						<reference key="destination" ref="579096024"/>
 					</object>
-					<int key="connectionID">386</int>
+					<int key="connectionID">391</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBOutletConnection" key="connection">
-						<string key="label">secondsField</string>
+						<string key="label">seconds_field</string>
 						<reference key="source" ref="931918929"/>
 						<reference key="destination" ref="238093935"/>
 					</object>
-					<int key="connectionID">387</int>
+					<int key="connectionID">392</int>
 				</object>
 				<object class="IBConnectionRecord">
 					<object class="IBActionConnection" key="connection">
-						<string key="label">startTimer:</string>
+						<string key="label">start_timer:</string>
 						<reference key="source" ref="931918929"/>
 						<reference key="destination" ref="1026890414"/>
 					</object>
-					<int key="connectionID">388</int>
+					<int key="connectionID">393</int>
 				</object>
 			</object>
 			<object class="IBMutableOrderedSet" key="objectRecords">
@@ -983,7 +983,7 @@
 				</object>
 			</object>
 			<nil key="sourceID"/>
-			<int key="maxID">390</int>
+			<int key="maxID">393</int>
 		</object>
 		<object class="IBClassDescriber" key="IBDocument.Classes">
 			<object class="NSMutableArray" key="referencedPartialClassDescriptions">
@@ -992,15 +992,15 @@
 					<string key="className">Controller</string>
 					<string key="superclassName">NSObject</string>
 					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">startTimer:</string>
+						<string key="NS.key.0">start_timer:</string>
 						<string key="NS.object.0">id</string>
 					</object>
 					<object class="NSMutableDictionary" key="outlets">
 						<bool key="EncodedWithXMLCoder">YES</bool>
 						<object class="NSArray" key="dict.sortedKeys">
 							<bool key="EncodedWithXMLCoder">YES</bool>
-							<string>minutesField</string>
-							<string>secondsField</string>
+							<string>minutes_field</string>
+							<string>seconds_field</string>
 						</object>
 						<object class="NSMutableArray" key="dict.values">
 							<bool key="EncodedWithXMLCoder">YES</bool>

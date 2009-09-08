@@ -13,6 +13,7 @@
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+		9138D03710569C2000B5610F /* tea.icns in Resources */ = {isa = PBXBuildFile; fileRef = 9138D03610569C2000B5610F /* tea.icns */; };
 		915F5B4F10554E34004080B7 /* steam.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 915F5B4E10554E34004080B7 /* steam.m4a */; };
 		91CE4BBC104EE48B0095A4EE /* Controller.rb in Resources */ = {isa = PBXBuildFile; fileRef = 91CE4BBB104EE48B0095A4EE /* Controller.rb */; };
 /* End PBXBuildFile section */
@@ -28,7 +29,8 @@
 		4DE339F60D74FCDD00ADB6EE /* rb_main.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		4DE3BE130D8651D900ECA448 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = /Library/Frameworks/MacRuby.framework; sourceTree = "<absolute>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8D1107320486CEB800E47090 /* TeaTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TeaTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1107320486CEB800E47090 /* Tea Timer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tea Timer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9138D03610569C2000B5610F /* tea.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = tea.icns; sourceTree = "<group>"; };
 		915F5B4E10554E34004080B7 /* steam.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = steam.m4a; sourceTree = "<group>"; };
 		91CE4BBB104EE48B0095A4EE /* Controller.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = Controller.rb; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -75,7 +77,7 @@
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1107320486CEB800E47090 /* TeaTimer.app */,
+				8D1107320486CEB800E47090 /* Tea Timer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,6 +106,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				9138D03610569C2000B5610F /* tea.icns */,
 				915F5B2D10554C22004080B7 /* sounds */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
@@ -133,9 +136,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D1107260486CEB800E47090 /* TeaTimer */ = {
+		8D1107260486CEB800E47090 /* Tea Timer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TeaTimer" */;
+			buildConfigurationList = C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Tea Timer" */;
 			buildPhases = (
 				8D1107290486CEB800E47090 /* Resources */,
 				8D11072C0486CEB800E47090 /* Sources */,
@@ -145,10 +148,10 @@
 			);
 			dependencies = (
 			);
-			name = TeaTimer;
+			name = "Tea Timer";
 			productInstallPath = "$(HOME)/Applications";
 			productName = TeaTimer;
-			productReference = 8D1107320486CEB800E47090 /* TeaTimer.app */;
+			productReference = 8D1107320486CEB800E47090 /* Tea Timer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -163,7 +166,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D1107260486CEB800E47090 /* TeaTimer */,
+				8D1107260486CEB800E47090 /* Tea Timer */,
 			);
 		};
 /* End PBXProject section */
@@ -178,6 +181,7 @@
 				4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */,
 				91CE4BBC104EE48B0095A4EE /* Controller.rb in Resources */,
 				915F5B4F10554E34004080B7 /* steam.m4a in Resources */,
+				9138D03710569C2000B5610F /* tea.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +229,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				PRODUCT_NAME = TeaTimer;
+				PRODUCT_NAME = "Tea Timer";
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
 			};
@@ -239,7 +243,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
-				PRODUCT_NAME = TeaTimer;
+				PRODUCT_NAME = "Tea Timer";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -271,7 +275,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "TeaTimer" */ = {
+		C01FCF4A08A954540054247B /* Build configuration list for PBXNativeTarget "Tea Timer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C01FCF4B08A954540054247B /* Debug */,

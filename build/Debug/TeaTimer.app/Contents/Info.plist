@@ -6,8 +6,10 @@
 	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>TeaTimer</string>
+	<key>CFBundleIconFile</key>
+	<string>tea.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.yourcompany.TeaTimer</string>
+	<string>com.ducksoup.TeaTimer</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
